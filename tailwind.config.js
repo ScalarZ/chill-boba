@@ -12,35 +12,6 @@ module.exports = {
       raleway: ["Raleway", "sans-serif"],
       cairo: ["Cairo", "sans-serif"],
     },
-    textColor: {
-      primaryBoBa: "#916C42",
-      secondaryBoBa: "#FFDA81",
-      primarySaKura: "#91425E",
-      secondarySaKura: "#F889AA",
-      primaryBears: "#FFFFFF",
-      secondaryBears: "#666666",
-    },
-    backgroundColor: (theme) => ({
-      primaryBoBa: "#FFEBBB",
-      secondaryBoBa: "#916C42",
-      primarySaKura: "#F7C8D6",
-      secondarySaKura: "#91425E",
-      primaryBears: "#272727",
-      secondaryBears: "#FFFFFF",
-    }),
-    boxShadow: {
-      outBoBa: "-4px -4px 8px rgb(255 255 255 / 70%), 4px 4px 8px #ffd777",
-      inBoBa:
-        "inset -2px -2px 4px rgb(255 255 255 / 70%), inset 2px 2px 4px #ffd777",
-
-      outSaKura: "-4px -4px 8px rgb(255 255 255 / 50%), 4px 4px 8px #FFA7C1",
-      inSaKura:
-        "inset -2px -2px 4px rgb(255 255 255 / 50%), inset 2px 2px 4px #FFA7C1",
-      outBears:
-        "-4px -4px 8px rgb(255 255 255 / 10%), 4px 4px 8px rgb(0 0 0 / 10%)",
-      inBears:
-        "inset -2px -2px 4px rgb(255 255 255 / 10%), inset 2px 2px 4px rgb(0 0 0 / 10%)",
-    },
     screens: {
       "tablet-min": { min: "640px" },
       // => @media (min-width: 640px) { ... }
@@ -52,22 +23,6 @@ module.exports = {
       // => @media (min-width: 1280px) { ... }
     },
     extend: {
-      backgroundImage: (theme) => ({
-        "BoBa-tea": "url('/Images/BoBa/boba.png')",
-        "BoBa-tea1": "url('/Images/BoBa/boba1.png')",
-        "BoBa-tea2": "url('/Images/BoBa/boba2.png')",
-        "BoBa-tea3": "url('/Images/BoBa/boba3.png')",
-        SaKura: "url('/Images/SaKura/sakura.png')",
-        SaKura1: "url('/Images/SaKura/sakura1.png')",
-        SaKura2: "url('/Images/SaKura/sakura2.png')",
-        SaKura3: "url('/Images/SaKura/sakura3.png')",
-        SaKura4: "url('/Images/SaKura/sakura4.png')",
-        Bears: "url('/Images/Bears/bears.png')",
-        Bears1: "url('/Images/Bears/bears1.png')",
-        Bears2: "url('/Images/Bears/bears2.png')",
-        Bears3: "url('/Images/Bears/bears3.png')",
-        Bears4: "url('/Images/Bears/bears4.png')",
-      }),
       animation: {
         "spin-slow": "spin 20s linear infinite",
         boba0: "boba0 8s linear infinite",

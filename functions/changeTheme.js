@@ -93,7 +93,7 @@ const changeTheme = (theme) => {
           position: { min: "left 75%", max: "left 80%" },
         },
         effects1: "leaf.svg",
-        effect2: { 
+        effect2: {
           path: "Bears",
           name: "bears4.png",
           position: { top: "0", right: "0" },

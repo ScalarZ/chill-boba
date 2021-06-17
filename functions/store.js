@@ -29,7 +29,7 @@ const store = () => {
       position: { min: "right top", max: "right top" },
     },
     listBg: {
-      name: { min: styles.List_BoBa_Min, max: styles.List_BoBa_Min },
+      name: { min: styles.List_BoBa_Min, max: styles.List_BoBa_Max },
       position: { min: "left 40%", max: "left 65%" },
     },
     effects1: "dot.svg",
