@@ -1,0 +1,98 @@
+/* BoBa */
+.Main_BoBa_Min{
+    background-image: url(../public/Images/BoBa/boba.png)
+}
+.Main_BoBa_Max{
+    background-image: none
+}
+.List_BoBa_Min{
+    background-image: url(../public/Images/BoBa/boba.png)
+}
+.List_BoBa_Max{
+    background-image: none
+}
+.BoBa_Switch{
+    box-shadow: -4px -4px 8px #ffffffb2, 4px 4px 8px #ffd777;
+}
+.BoBa_Switch:hover{
+    box-shadow: inset -2px -2px 4px #ffffffb2, inset 2px 2px 4px #ffd777;
+}
+/* SaKura */
+.Main_SaKura_Min{
+    background-image: url(../public/Images/SaKura/sakura.png)
+}
+.Main_SaKura_Max{
+    background-image: none
+}
+.List_SaKura_Min{
+    background-image: url(../public/Images/SaKura/sakura2.png)
+}
+.List_SaKura_Max{
+    background-image: none
+}
+.SaKura_Switch{
+    box-shadow: -4px -4px 8px rgb(255 255 255 / 50%), 4px 4px 8px #FFA7C1;
+}
+.SaKura_Switch:hover{
+    box-shadow: inset -2px -2px 4px rgb(255 255 255 / 50%), inset 2px 2px 4px #FFA7C1;
+}
+/* Bears */
+.Main_Bears_Min{
+    background-image: url(../public/Images/Bears/bears.png)
+}
+.Main_Bears_Max{
+    background-image: none
+}
+.List_Bears_Min{
+    background-image: url(../public/Images/Bears/bears3.png)
+}
+.List_Bears_Max{
+    background-image: none
+}
+.Bears_Switch{
+    box-shadow: -4px -4px 8px rgb(255 255 255 / 10%), 4px 4px 8px rgb(0 0 0 / 10%);
+}
+.Bears_Switch:hover{
+    box-shadow: inset -2px -2px 4px rgb(255 255 255 / 10%), inset 2px 2px 4px rgb(0 0 0 / 10%);
+}
+@media only screen and (max-width: 600px) {
+    /* BoBa */
+    .Main_BoBa_Min{
+        background-image: none
+    }
+    .Main_BoBa_Max{
+        background-image: url(../public/Images/BoBa/boba1.png)
+    }
+    .List_BoBa_Min{
+        background-image: none
+    }
+    .List_BoBa_Max{
+        background-image: url(../public/Images/BoBa/boba2.png)
+    }
+    /* SaKura */
+    .Main_SaKura_Min{
+        background-image: none
+    }
+    .Main_SaKura_Max{
+        background-image: url(../public/Images/SaKura/sakura1.png)
+    }
+    .List_SaKura_Min{
+        background-image: none
+    }
+    .List_SaKura_Max{
+        background-image: url(../public/Images/SaKura/sakura4.png)
+    }
+    /* Bears */
+    .Main_Bears_Min{
+        background-image: none
+    }
+    .Main_Bears_Max{
+        background-image: url(../public/Images/Bears/bears1.png)
+    }
+    .List_Bears_Min{
+        background-image: none
+    }
+    .List_Bears_Max{
+        background-image: url(../public/Images/Bears/bears2.png)
+    }
+  }

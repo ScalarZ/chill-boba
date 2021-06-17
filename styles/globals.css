@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Oxanium:wght@400;600&family=Raleway:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+}
+*::-webkit-scrollbar{
+    width: 4px;
+    background-color: transparent;
+}
+*::-webkit-scrollbar-thumb {
+    width: 4px;
+    border-radius: 50px;
+    background-color: #0000000f;
+}
