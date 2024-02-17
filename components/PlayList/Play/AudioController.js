@@ -12,7 +12,7 @@ const AudioController = () => {
       controls
       loop
       hidden
-      src="https://www.fesliyanstudios.com/musicfiles/2019-06-07_-_Chill_Gaming_-_David_Fesliyan.mp3"
+      src="https://github.com/Account04/rainsounds/raw/main/rain-in-forest-birds-nature-111405.mp3"
       type="audio/mpeg"
       className="absolute -inset-x-full opacity-0"
     />
